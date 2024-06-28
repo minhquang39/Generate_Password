@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container">
+            <div class="generate_box">
+                <h3 class="generate_title">Generate Password</h3>
+                <div class="generate_main">
+                    <form action="" id="generate_password">
+                        <!--  -->
+                        <div class="generate_input">
+                            <input type="text" class="generate_input_text" placeholder="Password...">
+                            <div class="generate_copy">
+                                <i class="bi bi-clipboard generate_copy_icon"></i>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="generate_method">
+                            <label for="">Password length</label>
+                            <input type="text" name="" id="" class="password_length">
+                        </div>
+                        <!--  -->
+                        <div class="generate_method">
+                            <label for="uppercase_letters">Include uppercase letters</label>
+                            <input type="checkbox" name="" id="uppercase_letters" case="uppercase">
+                        </div>
+                        <!--  -->
+                        <div class="generate_method">
+                            <label for="lowercase_letters">Include lowercase letters</label>
+                            <input type="checkbox" name="" id="lowercase_letters" case="lowercase">
+                        </div>
+                        <!--  -->
+                        <div class="generate_method">
+                            <label for="numbers">Include numbers</label>
+                            <input type="checkbox" name="" id="numbers" case="number">
+                        </div>
+                        <!--  -->
+                        <div class="generate_method">
+                            <label for="symbols">Include symbols</label>
+                            <input type="checkbox" name="" id="symbols" case="symbol">
+                        </div>
+                        <!--  -->
+                        <button class="generate_btn">Generate</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
