@@ -15,7 +15,6 @@ generateBtn.onclick = function (e) {
     document.querySelector(".password_length").value
   );
   let string = "";
-  password = "";
 
   if (!passwordLength || passwordLength <= 0) {
     alert("Please fill length");
